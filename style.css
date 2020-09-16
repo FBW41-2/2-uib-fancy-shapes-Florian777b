@@ -6,3 +6,36 @@ html, body {
 section {
     margin-top: 10px;
 }
+
+.task-one p::before {
+    content: "Once upon a time..";
+    background-color: darkred;
+
+}
+
+.task-one p::after {
+    content:"... The end";
+    background-color: darkred;
+
+}
+
+.task-one {
+    background-color:darkcyan;
+}
+
+.task-two {
+    clip-path: polygon(50% 0%, 100% 50%, 51% 100%, 0% 50%);
+    margin: left;
+    padding: auto;
+    width: 40%;
+    height: 10%;
+
+}
+
+.task-three {
+    
+    transform: scaleY(-1);
+    
+}
+
+
